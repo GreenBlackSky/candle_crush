@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scripts/Player.gd" type="Script" id=2]
+
+[sub_resource type="CapsuleShape" id=1]
+
+[node name="Player" type="KinematicBody"]
+collision_mask = 6
+script = ExtResource( 2 )
+
+[node name="Pivot" type="Spatial" parent="."]
+
+[node name="OmniLight" type="OmniLight" parent="Pivot"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.6483, 0 )
+light_energy = 5.0
+light_indirect_energy = 3.0
+shadow_enabled = true
+shadow_bias = 0.1
+omni_range = 15.0
+omni_attenuation = 0.554787
+
+[node name="Sprite3D" type="Sprite3D" parent="Pivot"]
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+shape = SubResource( 1 )
