@@ -16,10 +16,18 @@ light_energy = 5.0
 light_indirect_energy = 3.0
 shadow_enabled = true
 shadow_bias = 0.1
-omni_range = 15.0
+omni_range = 10.0
 omni_attenuation = 0.554787
 
 [node name="Sprite3D" type="Sprite3D" parent="Pivot"]
 
 [node name="CollisionShape" type="CollisionShape" parent="."]
 shape = SubResource( 1 )
+
+[node name="CameraPivot" type="Position3D" parent="."]
+transform = Transform( 0.707107, -0.353553, 0.612373, 0, 0.866026, 0.5, -0.707107, -0.353553, 0.612373, 0, 0, 0 )
+
+[node name="Camera" type="Camera" parent="CameraPivot"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 19 )
+projection = 1
+size = 19.0
