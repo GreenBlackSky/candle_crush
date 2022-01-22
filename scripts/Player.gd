@@ -30,8 +30,8 @@ func _physics_process(delta):
 	velocity = move_and_slide(velocity, Vector3.UP)
 
 
-func start():
+func unpause():
 	paused = false
 	
-func stop():
+func pause():
 	paused = true

@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scripts/Main.gd" type="Script" id=2]
 [ext_resource path="res://art/tree.png" type="Texture" id=3]
 [ext_resource path="res://art/tree2.png" type="Texture" id=4]
+[ext_resource path="res://scenes/UI.tscn" type="PackedScene" id=5]
 
 [sub_resource type="BoxShape" id=13]
 extents = Vector3( 30, 1, 30 )
@@ -125,49 +126,7 @@ light_negative = true
 [node name="Player" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
 
-[node name="StartUI" type="ColorRect" parent="."]
-anchor_right = 1.0
-anchor_bottom = 1.0
-color = Color( 0, 0, 0, 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="UI" parent="." instance=ExtResource( 5 )]
 
-[node name="StartButton" type="Button" parent="StartUI"]
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-margin_left = -32.0
-margin_top = -198.0
-margin_right = 18.0
-margin_bottom = -178.0
-text = "START"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="ContinueUI" type="ColorRect" parent="."]
-visible = false
-anchor_right = 1.0
-anchor_bottom = 1.0
-color = Color( 0, 0, 0, 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="ContinueButton" type="Button" parent="ContinueUI"]
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-margin_left = -32.0
-margin_top = -198.0
-margin_right = 18.0
-margin_bottom = -178.0
-text = "CONTINUE"
-
-[connection signal="pause" from="." to="Player" method="stop"]
-[connection signal="unpause" from="." to="Player" method="start"]
-[connection signal="button_up" from="StartUI/StartButton" to="." method="start_game"]
-[connection signal="button_up" from="ContinueUI/ContinueButton" to="." method="continue_game"]
+[connection signal="pause" from="UI" to="Player" method="pause"]
+[connection signal="unpause" from="UI" to="Player" method="unpause"]
