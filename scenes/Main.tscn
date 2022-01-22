@@ -29,91 +29,91 @@ material/0 = null
 [node name="Trees" type="Spatial" parent="Ground"]
 
 [node name="Tree1" type="Sprite3D" parent="Ground/Trees"]
-transform = Transform( 0.71069, -0.34852, 0.611108, -0.00529441, 0.865988, 0.500037, -0.703485, -0.358607, 0.613604, 4.97776, 2.04013, 0.0122699 )
+transform = Transform( 0.707107, -0.353553, 0.612372, 0, 0.866026, 0.5, -0.707107, -0.353553, 0.612372, 4.97776, 2.04013, 0.0122699 )
 shaded = true
 alpha_cut = 2
 texture = ExtResource( 3 )
 
 [node name="Tree2" type="Sprite3D" parent="Ground/Trees"]
-transform = Transform( 0.355345, -0.17426, 0.305554, -0.00264721, 0.432994, 0.250018, -0.351743, -0.179303, 0.306802, 4.41237, 2.08975, 5.14411 )
+transform = Transform( 0.353554, -0.176777, 0.306186, 0, 0.433013, 0.25, -0.353554, -0.176777, 0.306186, 4.41237, 2.59545, 5.14411 )
 shaded = true
 alpha_cut = 2
 texture = ExtResource( 4 )
 
 [node name="Tree3" type="Sprite3D" parent="Ground/Trees"]
-transform = Transform( 0.355345, -0.17426, 0.305554, -0.00264721, 0.432994, 0.250018, -0.351743, -0.179303, 0.306802, -0.68784, 2.11566, 6.97947 )
+transform = Transform( 0.353554, -0.176777, 0.306186, 0, 0.433013, 0.25, -0.353554, -0.176777, 0.306186, -0.68784, 2.62136, 6.97947 )
 shaded = true
 alpha_cut = 2
 texture = ExtResource( 4 )
 
 [node name="Tree4" type="Sprite3D" parent="Ground/Trees"]
-transform = Transform( 0.355345, -0.17426, 0.305554, -0.00264721, 0.432994, 0.250018, -0.351743, -0.179303, 0.306802, -10.7832, 2.123, -1.07418 )
+transform = Transform( 0.353554, -0.176777, 0.306186, 0, 0.433013, 0.25, -0.353554, -0.176777, 0.306186, -10.7832, 2.6287, -1.07418 )
 shaded = true
 alpha_cut = 2
 texture = ExtResource( 4 )
 
 [node name="Tree5" type="Sprite3D" parent="Ground/Trees"]
-transform = Transform( 0.355345, -0.17426, 0.305554, -0.00264721, 0.432994, 0.250018, -0.351743, -0.179303, 0.306802, -10.2125, 2.17489, 13.291 )
+transform = Transform( 0.353554, -0.176777, 0.306186, 0, 0.433013, 0.25, -0.353554, -0.176777, 0.306186, -10.2125, 2.68059, 13.291 )
 shaded = true
 alpha_cut = 2
 texture = ExtResource( 4 )
 
 [node name="Tree6" type="Sprite3D" parent="Ground/Trees"]
-transform = Transform( 0.355345, -0.17426, 0.305554, -0.00264721, 0.432994, 0.250018, -0.351743, -0.179303, 0.306802, 0.187111, 2.143, 15.1165 )
+transform = Transform( 0.353554, -0.176777, 0.306186, 0, 0.433013, 0.25, -0.353554, -0.176777, 0.306186, 0.187111, 2.6487, 15.1165 )
 shaded = true
 alpha_cut = 2
 texture = ExtResource( 4 )
 
 [node name="Tree7" type="Sprite3D" parent="Ground/Trees"]
-transform = Transform( 0.355345, -0.17426, 0.305554, -0.00264721, 0.432994, 0.250018, -0.351743, -0.179303, 0.306802, -2.55876, 2.05078, -12.1278 )
+transform = Transform( 0.353554, -0.176777, 0.306186, 0, 0.433013, 0.25, -0.353554, -0.176777, 0.306186, -2.55876, 2.55648, -12.1278 )
 shaded = true
 alpha_cut = 2
 texture = ExtResource( 4 )
 
 [node name="Tree8" type="Sprite3D" parent="Ground/Trees"]
-transform = Transform( 0.71069, -0.34852, 0.611108, -0.00529441, 0.865988, 0.500037, -0.703485, -0.358607, 0.613604, -8.62367, 2.11257, 5.79475 )
+transform = Transform( 0.707107, -0.353553, 0.612372, 0, 0.866026, 0.5, -0.707107, -0.353553, 0.612372, -8.62367, 2.11257, 5.79475 )
 shaded = true
 alpha_cut = 2
 texture = ExtResource( 3 )
 
 [node name="Tree9" type="Sprite3D" parent="Ground/Trees"]
-transform = Transform( 0.71069, -0.34852, 0.611108, -0.00529441, 0.865988, 0.500037, -0.703485, -0.358607, 0.613604, -4.64997, 2.0534, -6.0019 )
+transform = Transform( 0.707107, -0.353553, 0.612372, 0, 0.866026, 0.5, -0.707107, -0.353553, 0.612372, -4.64997, 2.0534, -6.0019 )
 shaded = true
 alpha_cut = 2
 texture = ExtResource( 3 )
 
 [node name="Tree10" type="Sprite3D" parent="Ground/Trees"]
-transform = Transform( 0.71069, -0.34852, 0.611108, -0.00529441, 0.865988, 0.500037, -0.703485, -0.358607, 0.613604, 11.3364, 1.96766, -12.9575 )
+transform = Transform( 0.707107, -0.353553, 0.612372, 0, 0.866026, 0.5, -0.707107, -0.353553, 0.612372, 11.3364, 1.96766, -12.9575 )
 shaded = true
 alpha_cut = 2
 texture = ExtResource( 3 )
 
 [node name="Tree11" type="Sprite3D" parent="Ground/Trees"]
-transform = Transform( 0.71069, -0.34852, 0.611108, -0.00529441, 0.865988, 0.500037, -0.703485, -0.358607, 0.613604, 10.871, 2.02243, 1.14786 )
+transform = Transform( 0.707107, -0.353553, 0.612372, 0, 0.866026, 0.5, -0.707107, -0.353553, 0.612372, 10.871, 2.02243, 1.14786 )
 shaded = true
 alpha_cut = 2
 texture = ExtResource( 3 )
 
 [node name="Tree12" type="Sprite3D" parent="Ground/Trees"]
-transform = Transform( 0.71069, -0.34852, 0.611108, -0.00529441, 0.865988, 0.500037, -0.703485, -0.358607, 0.613604, 4.32366, 2.08058, 10.1198 )
+transform = Transform( 0.707107, -0.353553, 0.612372, 0, 0.866026, 0.5, -0.707107, -0.353553, 0.612372, 4.32366, 2.08058, 10.1198 )
 shaded = true
 alpha_cut = 2
 texture = ExtResource( 3 )
 
 [node name="Tree13" type="Sprite3D" parent="Ground/Trees"]
-transform = Transform( 0.71069, -0.34852, 0.611108, -0.00529441, 0.865988, 0.500037, -0.703485, -0.358607, 0.613604, -11.3962, 2.16392, 16.7008 )
+transform = Transform( 0.707107, -0.353553, 0.612372, 0, 0.866026, 0.5, -0.707107, -0.353553, 0.612372, -11.3962, 2.16392, 16.7008 )
 shaded = true
 alpha_cut = 2
 texture = ExtResource( 3 )
 
 [node name="Tree14" type="Sprite3D" parent="Ground/Trees"]
-transform = Transform( 0.355345, -0.17426, 0.305554, -0.00264721, 0.432994, 0.250018, -0.351743, -0.179303, 0.306802, 4.98098, 2.04182, -7.03668 )
+transform = Transform( 0.353554, -0.176777, 0.306186, 0, 0.433013, 0.25, -0.353554, -0.176777, 0.306186, 4.98098, 2.54752, -7.03668 )
 shaded = true
 alpha_cut = 2
 texture = ExtResource( 4 )
 
 [node name="Tree15" type="Sprite3D" parent="Ground/Trees"]
-transform = Transform( 0.355345, -0.17426, 0.305554, -0.00264721, 0.432994, 0.250018, -0.351743, -0.179303, 0.306802, 16.5216, 2.00381, -5.70487 )
+transform = Transform( 0.353554, -0.176777, 0.306186, 0, 0.433013, 0.25, -0.353554, -0.176777, 0.306186, 16.5216, 2.50951, -5.70487 )
 shaded = true
 alpha_cut = 2
 texture = ExtResource( 4 )
@@ -124,3 +124,50 @@ light_negative = true
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
+
+[node name="StartUI" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="StartButton" type="Button" parent="StartUI"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -32.0
+margin_top = -198.0
+margin_right = 18.0
+margin_bottom = -178.0
+text = "START"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ContinueUI" type="ColorRect" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ContinueButton" type="Button" parent="ContinueUI"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -32.0
+margin_top = -198.0
+margin_right = 18.0
+margin_bottom = -178.0
+text = "CONTINUE"
+
+[connection signal="pause" from="." to="Player" method="stop"]
+[connection signal="unpause" from="." to="Player" method="start"]
+[connection signal="button_up" from="StartUI/StartButton" to="." method="start_game"]
+[connection signal="button_up" from="ContinueUI/ContinueButton" to="." method="continue_game"]

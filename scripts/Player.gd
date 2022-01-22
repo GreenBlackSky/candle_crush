@@ -3,9 +3,13 @@ extends KinematicBody
 
 export var speed = 14
 var velocity = Vector3.ZERO
+var paused = true
 
 
 func _physics_process(delta):
+	if paused:
+		return
+
 	var direction = Vector3.ZERO
 
 	if Input.is_action_pressed("move_right"):
@@ -24,3 +28,10 @@ func _physics_process(delta):
 	velocity.x = direction.x * speed
 	velocity.z = direction.z * speed
 	velocity = move_and_slide(velocity, Vector3.UP)
+
+
+func start():
+	paused = false
+	
+func stop():
+	paused = true
